@@ -2,12 +2,21 @@ import { Howl, Howler } from 'howler'
 import { useGameStore } from '@/stores/game'
 
 const cache = new Map<string, Howl>()
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, '')
+
+/** 给 /sounds/... 路径加上 vite base 前缀 */
+function resolveUrl(src: string): string {
+  if (src.startsWith('http') || src.startsWith('data:')) return src
+  if (src.startsWith(BASE)) return src
+  return BASE + src
+}
 
 function getOrCreate(src: string): Howl {
-  let howl = cache.get(src)
+  const url = resolveUrl(src)
+  let howl = cache.get(url)
   if (!howl) {
-    howl = new Howl({ src: [src], preload: true })
-    cache.set(src, howl)
+    howl = new Howl({ src: [url], preload: true })
+    cache.set(url, howl)
   }
   return howl
 }
