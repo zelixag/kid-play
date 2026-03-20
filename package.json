@@ -26,6 +26,7 @@
     "@types/canvas-confetti": "^1.9.0",
     "@types/howler": "^2.2.12",
     "@vitejs/plugin-vue": "^6.0.5",
+    "msedge-tts": "^2.0.4",
     "tailwindcss": "^4.2.2",
     "typescript": "^5.9.3",
     "vite": "^8.0.1",
