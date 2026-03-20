@@ -1,0 +1,58 @@
+import type { GameTheme } from '@/types/game'
+
+export const vehiclesTheme: GameTheme = {
+  id: 'vehicles',
+  name: '交通工具',
+  icon: '🚗',
+  bgColor: '#dbeafe',
+  items: [
+    {
+      id: 'car',
+      name: '小汽车',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f697.svg',
+      sound: '/sounds/vehicles/car.mp3',
+      voiceIntro: '/sounds/vehicles/car-intro.mp3',
+      color: '#ef4444',
+    },
+    {
+      id: 'bus',
+      name: '公交车',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68c.svg',
+      sound: '/sounds/vehicles/bus.mp3',
+      voiceIntro: '/sounds/vehicles/bus-intro.mp3',
+      color: '#f97316',
+    },
+    {
+      id: 'train',
+      name: '火车',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f682.svg',
+      sound: '/sounds/vehicles/train.mp3',
+      voiceIntro: '/sounds/vehicles/train-intro.mp3',
+      color: '#0ea5e9',
+    },
+    {
+      id: 'airplane',
+      name: '飞机',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2708.svg',
+      sound: '/sounds/vehicles/airplane.mp3',
+      voiceIntro: '/sounds/vehicles/airplane-intro.mp3',
+      color: '#6366f1',
+    },
+    {
+      id: 'ship',
+      name: '轮船',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a2.svg',
+      sound: '/sounds/vehicles/ship.mp3',
+      voiceIntro: '/sounds/vehicles/ship-intro.mp3',
+      color: '#0d9488',
+    },
+    {
+      id: 'firetruck',
+      name: '消防车',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f692.svg',
+      sound: '/sounds/vehicles/firetruck.mp3',
+      voiceIntro: '/sounds/vehicles/firetruck-intro.mp3',
+      color: '#dc2626',
+    },
+  ],
+}
