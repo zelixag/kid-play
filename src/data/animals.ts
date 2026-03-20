@@ -1,0 +1,58 @@
+import type { GameTheme } from '@/types/game'
+
+export const animalsTheme: GameTheme = {
+  id: 'animals',
+  name: '认识动物',
+  icon: '🐾',
+  bgColor: '#d1fae5',
+  items: [
+    {
+      id: 'cat',
+      name: '小猫',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f431.svg',
+      sound: '/sounds/animals/cat.mp3',
+      voiceIntro: '/sounds/animals/cat-intro.mp3',
+      color: '#f97316',
+    },
+    {
+      id: 'dog',
+      name: '小狗',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f436.svg',
+      sound: '/sounds/animals/dog.mp3',
+      voiceIntro: '/sounds/animals/dog-intro.mp3',
+      color: '#a16207',
+    },
+    {
+      id: 'chicken',
+      name: '小鸡',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f425.svg',
+      sound: '/sounds/animals/chicken.mp3',
+      voiceIntro: '/sounds/animals/chicken-intro.mp3',
+      color: '#eab308',
+    },
+    {
+      id: 'cow',
+      name: '奶牛',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42e.svg',
+      sound: '/sounds/animals/cow.mp3',
+      voiceIntro: '/sounds/animals/cow-intro.mp3',
+      color: '#65a30d',
+    },
+    {
+      id: 'duck',
+      name: '小鸭',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f986.svg',
+      sound: '/sounds/animals/duck.mp3',
+      voiceIntro: '/sounds/animals/duck-intro.mp3',
+      color: '#0ea5e9',
+    },
+    {
+      id: 'frog',
+      name: '青蛙',
+      image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f438.svg',
+      sound: '/sounds/animals/frog.mp3',
+      voiceIntro: '/sounds/animals/frog-intro.mp3',
+      color: '#16a34a',
+    },
+  ],
+}
