@@ -6,6 +6,7 @@ import { useTouchFeedback } from '@/composables/useTouchFeedback'
 import GameCard from '@/components/GameCard.vue'
 import CelebrationOverlay from '@/components/CelebrationOverlay.vue'
 import VoicePrompt from '@/components/VoicePrompt.vue'
+import LoadingScreen from '@/components/LoadingScreen.vue'
 import TopBar from '@/components/TopBar.vue'
 import type { GameItem, GameMode } from '@/types/game'
 
@@ -13,6 +14,7 @@ const props = defineProps<{ themeId: string }>()
 
 const theme = computed(() => getTheme(props.themeId))
 const { trigger, isActive } = useTouchFeedback()
+const loading = ref(true)
 const audio = useAudio()
 
 const mode = ref<GameMode>('explore')
@@ -25,6 +27,8 @@ onMounted(() => {
   if (!theme.value) return
   const srcs = theme.value.items.flatMap((i) => [i.sound, i.voiceIntro])
   audio.preload(srcs)
+  // 模拟加载时间让孩子看到可爱的加载画面
+  setTimeout(() => { loading.value = false }, 800)
 })
 
 function onTap(item: GameItem) {
@@ -146,4 +150,6 @@ function nextFindQuestion() {
   <div v-else class="h-full flex items-center justify-center bg-amber-50">
     <p class="text-xl text-gray-400">主题不存在</p>
   </div>
+
+  <LoadingScreen :show="loading" />
 </template>
