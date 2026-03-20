@@ -12,6 +12,7 @@ export const shapesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f534.svg',
       sound: '/sounds/shapes/red-circle.mp3',
       voiceIntro: '/sounds/shapes/red-circle-intro.mp3',
+      voiceFind: '/sounds/shapes/red-circle-find.mp3',
       color: '#ef4444',
     },
     {
@@ -20,6 +21,7 @@ export const shapesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e6.svg',
       sound: '/sounds/shapes/blue-square.mp3',
       voiceIntro: '/sounds/shapes/blue-square-intro.mp3',
+      voiceFind: '/sounds/shapes/blue-square-find.mp3',
       color: '#3b82f6',
     },
     {
@@ -28,6 +30,7 @@ export const shapesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2b50.svg',
       sound: '/sounds/shapes/yellow-star.mp3',
       voiceIntro: '/sounds/shapes/yellow-star-intro.mp3',
+      voiceFind: '/sounds/shapes/yellow-star-find.mp3',
       color: '#eab308',
     },
     {
@@ -36,6 +39,7 @@ export const shapesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f7e2.svg',
       sound: '/sounds/shapes/green-diamond.mp3',
       voiceIntro: '/sounds/shapes/green-diamond-intro.mp3',
+      voiceFind: '/sounds/shapes/green-diamond-find.mp3',
       color: '#22c55e',
     },
     {
@@ -44,6 +48,7 @@ export const shapesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f49c.svg',
       sound: '/sounds/shapes/purple-heart.mp3',
       voiceIntro: '/sounds/shapes/purple-heart-intro.mp3',
+      voiceFind: '/sounds/shapes/purple-heart-find.mp3',
       color: '#a855f7',
     },
     {
@@ -52,6 +57,7 @@ export const shapesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f536.svg',
       sound: '/sounds/shapes/orange-triangle.mp3',
       voiceIntro: '/sounds/shapes/orange-triangle-intro.mp3',
+      voiceFind: '/sounds/shapes/orange-triangle-find.mp3',
       color: '#f97316',
     },
   ],

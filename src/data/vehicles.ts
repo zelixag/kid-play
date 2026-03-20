@@ -12,6 +12,7 @@ export const vehiclesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f697.svg',
       sound: '/sounds/vehicles/car.mp3',
       voiceIntro: '/sounds/vehicles/car-intro.mp3',
+      voiceFind: '/sounds/vehicles/car-find.mp3',
       color: '#ef4444',
     },
     {
@@ -20,6 +21,7 @@ export const vehiclesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f68c.svg',
       sound: '/sounds/vehicles/bus.mp3',
       voiceIntro: '/sounds/vehicles/bus-intro.mp3',
+      voiceFind: '/sounds/vehicles/bus-find.mp3',
       color: '#f97316',
     },
     {
@@ -28,6 +30,7 @@ export const vehiclesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f682.svg',
       sound: '/sounds/vehicles/train.mp3',
       voiceIntro: '/sounds/vehicles/train-intro.mp3',
+      voiceFind: '/sounds/vehicles/train-find.mp3',
       color: '#0ea5e9',
     },
     {
@@ -36,6 +39,7 @@ export const vehiclesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/2708.svg',
       sound: '/sounds/vehicles/airplane.mp3',
       voiceIntro: '/sounds/vehicles/airplane-intro.mp3',
+      voiceFind: '/sounds/vehicles/airplane-find.mp3',
       color: '#6366f1',
     },
     {
@@ -44,6 +48,7 @@ export const vehiclesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f6a2.svg',
       sound: '/sounds/vehicles/ship.mp3',
       voiceIntro: '/sounds/vehicles/ship-intro.mp3',
+      voiceFind: '/sounds/vehicles/ship-find.mp3',
       color: '#0d9488',
     },
     {
@@ -52,6 +57,7 @@ export const vehiclesTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f692.svg',
       sound: '/sounds/vehicles/firetruck.mp3',
       voiceIntro: '/sounds/vehicles/firetruck-intro.mp3',
+      voiceFind: '/sounds/vehicles/firetruck-find.mp3',
       color: '#dc2626',
     },
   ],

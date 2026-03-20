@@ -25,7 +25,7 @@ const wrongId = ref<string | null>(null)
 
 onMounted(() => {
   if (!theme.value) return
-  const srcs = theme.value.items.flatMap((i) => [i.sound, i.voiceIntro])
+  const srcs = theme.value.items.flatMap((i) => [i.sound, i.voiceIntro, i.voiceFind])
   audio.preload(srcs)
   // 模拟加载时间让孩子看到可爱的加载画面
   setTimeout(() => { loading.value = false }, 800)
@@ -93,9 +93,9 @@ function nextFindQuestion() {
   targetItem.value = pick
   promptText.value = `找到「${pick.name}」在哪里？`
 
-  // 播放提示音
+  // 播放该 item 专属的"找到XX在哪里"语音
   setTimeout(() => {
-    audio.play('/sounds/ui/find-prompt.mp3')
+    audio.play(pick.voiceFind)
   }, 300)
 }
 </script>

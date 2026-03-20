@@ -12,6 +12,7 @@ export const fruitsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34e.svg',
       sound: '/sounds/fruits/apple.mp3',
       voiceIntro: '/sounds/fruits/apple-intro.mp3',
+      voiceFind: '/sounds/fruits/apple-find.mp3',
       color: '#ef4444',
     },
     {
@@ -20,6 +21,7 @@ export const fruitsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34c.svg',
       sound: '/sounds/fruits/banana.mp3',
       voiceIntro: '/sounds/fruits/banana-intro.mp3',
+      voiceFind: '/sounds/fruits/banana-find.mp3',
       color: '#eab308',
     },
     {
@@ -28,6 +30,7 @@ export const fruitsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f349.svg',
       sound: '/sounds/fruits/watermelon.mp3',
       voiceIntro: '/sounds/fruits/watermelon-intro.mp3',
+      voiceFind: '/sounds/fruits/watermelon-find.mp3',
       color: '#16a34a',
     },
     {
@@ -36,6 +39,7 @@ export const fruitsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f353.svg',
       sound: '/sounds/fruits/strawberry.mp3',
       voiceIntro: '/sounds/fruits/strawberry-intro.mp3',
+      voiceFind: '/sounds/fruits/strawberry-find.mp3',
       color: '#e11d48',
     },
     {
@@ -44,6 +48,7 @@ export const fruitsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f34a.svg',
       sound: '/sounds/fruits/orange.mp3',
       voiceIntro: '/sounds/fruits/orange-intro.mp3',
+      voiceFind: '/sounds/fruits/orange-find.mp3',
       color: '#f97316',
     },
     {
@@ -52,6 +57,7 @@ export const fruitsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f347.svg',
       sound: '/sounds/fruits/grape.mp3',
       voiceIntro: '/sounds/fruits/grape-intro.mp3',
+      voiceFind: '/sounds/fruits/grape-find.mp3',
       color: '#7c3aed',
     },
   ],

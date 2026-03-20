@@ -4,6 +4,7 @@ export interface GameItem {
   image: string
   sound: string
   voiceIntro: string
+  voiceFind: string
   color: string
   animationClass?: string
 }

@@ -12,6 +12,7 @@ export const animalsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f431.svg',
       sound: '/sounds/animals/cat.mp3',
       voiceIntro: '/sounds/animals/cat-intro.mp3',
+      voiceFind: '/sounds/animals/cat-find.mp3',
       color: '#f97316',
     },
     {
@@ -20,6 +21,7 @@ export const animalsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f436.svg',
       sound: '/sounds/animals/dog.mp3',
       voiceIntro: '/sounds/animals/dog-intro.mp3',
+      voiceFind: '/sounds/animals/dog-find.mp3',
       color: '#a16207',
     },
     {
@@ -28,6 +30,7 @@ export const animalsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f425.svg',
       sound: '/sounds/animals/chicken.mp3',
       voiceIntro: '/sounds/animals/chicken-intro.mp3',
+      voiceFind: '/sounds/animals/chicken-find.mp3',
       color: '#eab308',
     },
     {
@@ -36,6 +39,7 @@ export const animalsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f42e.svg',
       sound: '/sounds/animals/cow.mp3',
       voiceIntro: '/sounds/animals/cow-intro.mp3',
+      voiceFind: '/sounds/animals/cow-find.mp3',
       color: '#65a30d',
     },
     {
@@ -44,6 +48,7 @@ export const animalsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f986.svg',
       sound: '/sounds/animals/duck.mp3',
       voiceIntro: '/sounds/animals/duck-intro.mp3',
+      voiceFind: '/sounds/animals/duck-find.mp3',
       color: '#0ea5e9',
     },
     {
@@ -52,6 +57,7 @@ export const animalsTheme: GameTheme = {
       image: 'https://cdn.jsdelivr.net/gh/twitter/twemoji@latest/assets/svg/1f438.svg',
       sound: '/sounds/animals/frog.mp3',
       voiceIntro: '/sounds/animals/frog-intro.mp3',
+      voiceFind: '/sounds/animals/frog-find.mp3',
       color: '#16a34a',
     },
   ],

@@ -7,7 +7,7 @@ defineProps<{ title?: string }>()
 
 const router = useRouter()
 const store = useGameStore()
-const { clicks, tap, requiredClicks } = useParentLock(5, 2000)
+const { clicks, tap, requiredClicks } = useParentLock(3, 3000)
 
 function onBackTap() {
   tap(() => router.push('/'))
