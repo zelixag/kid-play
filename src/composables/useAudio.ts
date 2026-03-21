@@ -29,11 +29,11 @@ export function useAudio() {
     srcs.forEach(getOrCreate)
   }
 
-  /** 播放音效 */
+  /** 播放音效（自动打断上一个） */
   function play(src: string) {
+    Howler.stop()
     const howl = getOrCreate(src)
     howl.volume(store.volume)
-    console.log('[Audio] play:', resolveUrl(src), 'vol:', store.volume, 'ctx:', Howler.ctx?.state)
     howl.play()
   }
 

@@ -3,12 +3,14 @@ import { animalsTheme } from './animals'
 import { fruitsTheme } from './fruits'
 import { vehiclesTheme } from './vehicles'
 import { shapesTheme } from './shapes'
+import { carbrandsTheme } from './carbrands'
 
 export const themes: GameTheme[] = [
   animalsTheme,
   fruitsTheme,
   vehiclesTheme,
   shapesTheme,
+  carbrandsTheme,
 ]
 
 export function getTheme(id: string): GameTheme | undefined {
