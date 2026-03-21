@@ -33,6 +33,7 @@ export function useAudio() {
   function play(src: string) {
     const howl = getOrCreate(src)
     howl.volume(store.volume)
+    console.log('[Audio] play:', resolveUrl(src), 'vol:', store.volume, 'ctx:', Howler.ctx?.state)
     howl.play()
   }
 
